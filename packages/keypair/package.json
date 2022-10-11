@@ -1,0 +1,8 @@
+{
+  "name": "keypair",
+  "version": "0.1.0",
+  "description": "keypair management tool",
+  "main": "index.js",
+  "author": "Zou Guangxian",
+  "license": "MIT"
+}
