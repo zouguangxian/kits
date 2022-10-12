@@ -4,5 +4,19 @@
   "description": "keypair management tool",
   "main": "index.js",
   "author": "Zou Guangxian",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "cli": "ts-node cmd/cli.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.1.3",
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.8.4",
+    "aptos": "^1.3.15",
+    "bip39": "^3.0.4",
+    "commander": "^9.4.1",
+    "ethers": "^5.7.1",
+    "expand-tilde": "^2.0.2",
+    "glob": "^8.0.3"
+  }
 }
